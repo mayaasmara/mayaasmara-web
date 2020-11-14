@@ -1,17 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap");
 
 .featured-image {
-  width: 100%;
+  width: 400px;
+  padding-top: 50px;
 }
 body {
   margin: 0;
   font-family: "Baloo 2";
 }
 
-.navigation {
-  font-size: 24px;
-}
-
 .navigation a {
   text-decoration: none;
+  float: right;
+  color: black;
+  font-size: 21px;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding-bottom: 50px;
+}
+
+.logo {
+  float: left;
+  margin-left: 20px;
 }
