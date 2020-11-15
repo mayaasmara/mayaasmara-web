@@ -66,11 +66,25 @@ p {
   margin-right: 10px;
 }
 
+.article-card-list {
+  margin: 0 50px;
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.article-card-list a {
+  display: block;
+}
+
 .article-card {
   background-color: #000;
   background-image: url('/images/card-image.jpg');
   background-size: cover;
-  width: 400px;
+}
+
+.article-card a {
+  display: block;
   padding: 20px;
 }
 
