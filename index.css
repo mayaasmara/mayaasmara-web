@@ -1,12 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap");
-
-.featured-image {
-  height: 400px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap');
 
 body {
   margin: 0;
-  font-family: "Baloo 2";
+  font-family: 'Baloo 2';
+}
+
+a {
+  text-decoration: none;
+}
+
+.featured-image {
+  height: 400px;
 }
 
 .navigation {
@@ -17,7 +21,6 @@ body {
 }
 
 .navigation a {
-  text-decoration: none;
   color: black;
   font-size: 21px;
 }
@@ -55,11 +58,28 @@ p {
 
 .topic-list a {
   font-size: 14px;
-  text-decoration: none;
   background-color: #ffdeee;
   padding: 10px 15px;
   color: #473356;
   border-radius: 10px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+.article-card {
+  background-color: #000;
+  background-image: url('/images/card-image.jpg');
+  background-size: cover;
+  width: 400px;
+  padding: 20px;
+}
+
+.article-card * {
+  color: #fff;
+}
+
+.article-card h1 {
+  margin-top: 0;
+  font-size: 40px;
+  margin-right: 60px;
 }
