@@ -48,3 +48,18 @@ p {
   align-items: center;
   margin: 100px 0;
 }
+
+.topic-heading {
+  font-size: 24px;
+}
+
+.topic-list a {
+  font-size: 14px;
+  text-decoration: none;
+  background-color: #ffdeee;
+  padding: 10px 15px;
+  color: #473356;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
