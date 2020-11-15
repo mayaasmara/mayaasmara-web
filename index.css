@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap");
 
 .featured-image {
   width: 400px;
@@ -7,7 +7,7 @@
 
 body {
   margin: 0;
-  font-family: 'Baloo 2';
+  font-family: "Baloo 2";
 }
 
 .navigation {
@@ -23,4 +23,8 @@ body {
   text-decoration: none;
   color: black;
   font-size: 21px;
+}
+
+.navigation-links a {
+  margin-left: 30px;
 }
