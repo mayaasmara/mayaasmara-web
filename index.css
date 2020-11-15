@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500&display=swap");
 
 .featured-image {
-  width: 400px;
+  height: 400px;
 }
 
 body {
@@ -28,4 +28,16 @@ body {
 
 .featured-article {
   display: flex;
+}
+
+.featured-article-info {
+  padding-left: 30px;
+}
+
+.featured-article-info h1 {
+  font-size: 48px;
+}
+
+p {
+  font-size: 16px;
 }
