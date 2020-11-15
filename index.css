@@ -2,7 +2,6 @@
 
 .featured-image {
   width: 400px;
-  padding-top: 50px;
 }
 
 body {
@@ -11,9 +10,7 @@ body {
 }
 
 .navigation {
-  margin-top: 20px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,4 +24,8 @@ body {
 
 .navigation-links a {
   margin-left: 30px;
+}
+
+.featured-article {
+  display: flex;
 }
