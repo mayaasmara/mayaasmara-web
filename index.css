@@ -127,12 +127,15 @@ p {
   flex-direction: column;
   margin-top: 100px;
 }
+.footer p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
 
 .footer .social-media a {
-  margin: 10px;
-  margin-bottom: 20px;
+  margin: 20px;
 }
 
 .copyright {
-  margin-top: 20px;
+  margin-top: 30px;
 }
