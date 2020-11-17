@@ -3,6 +3,7 @@
 body {
   margin: 0;
   font-family: "Baloo 2";
+  color: #373d3f;
 }
 
 a {
@@ -14,15 +15,17 @@ a {
 }
 
 .navigation {
-  margin: 20px;
+  margin: 40px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .navigation a {
-  color: black;
+  color: #373d3f;
   font-size: 21px;
+  font-weight: 500;
 }
 
 .navigation-links a {
@@ -35,11 +38,14 @@ a {
 
 .featured-article-info {
   padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .featured-article-info h1 {
   font-size: 48px;
-  color: #000;
+  color: #373d3f;
 }
 
 p {
@@ -62,6 +68,7 @@ p {
   background-color: #ffdeee;
   padding: 10px 15px;
   color: #473356;
+  font-weight: 550;
   border-radius: 10px;
   margin-left: 10px;
   margin-right: 10px;
@@ -138,4 +145,26 @@ p {
 
 .copyright {
   margin-top: 30px;
+}
+.copyright p {
+  font-size: 16px;
+}
+
+.about-image {
+  height: 380px;
+}
+
+.featured-section {
+  display: flex;
+}
+
+.featured-section-title {
+  padding-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.featured-section-title h1 {
+  font-size: 48px;
+  color: #000;
 }
