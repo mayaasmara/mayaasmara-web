@@ -42,23 +42,33 @@
           posuere mi accumsan. Sed fringilla lobortis tellus in mattis.
         </p>
 
-        <form>
+        <form class="contact-form">
           <fieldset>
             <label for="full-name">Full Name</label>
-            <input type="text" name="full-name" />
+            <input type="text" name="full-name" placeholder="Melanie Simonds" />
           </fieldset>
           <fieldset>
             <label for="email">Email</label>
-            <input type="text" name="email" />
+            <input type="text" name="email" placeholder="melanie@adress.com" />
           </fieldset>
           <fieldset>
             <label for="subject">Subject</label>
-            <input type="text" name="subject" />
+            <input
+              type="text"
+              name="subject"
+              placeholder="Collaboration Offer"
+            />
           </fieldset>
           <fieldset>
             <label for="message">Message</label>
-            <textarea name="message" cols="30" rows="10"></textarea>
+            <textarea
+              name="message"
+              cols="30"
+              rows="10"
+              placeholder="Write Your Message Here"
+            ></textarea>
           </fieldset>
+          <button type="send-message">SEND MESSAGE</button>
         </form>
       </div>
     </main>
