@@ -12,6 +12,7 @@ a {
 }
 
 .featured-image {
+  width: 700px;
   height: 400px;
 }
 
@@ -149,10 +150,6 @@ p {
 }
 .copyright p {
   font-size: 16px;
-}
-
-.about-image {
-  height: 380px;
 }
 
 .featured-section {
